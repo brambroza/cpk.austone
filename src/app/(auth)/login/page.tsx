@@ -28,7 +28,7 @@ export default function LoginPage() {
         const data = await res.json().catch(() => ({ message: "Login failed" }));
         throw new Error(data.message || "Login failed");
       }
-
+ 
       const data = await res.json();
       saveAuth(data.token, data.user);
       router.replace("/dashboard");
