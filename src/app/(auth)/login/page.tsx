@@ -50,7 +50,7 @@ export default function LoginPage() {
         <div className="grid md:grid-cols-[1.05fr_1fr]">
           <div className="relative order-2 md:order-1 overflow-hidden rounded-[28px] md:rounded-r-none bg-gradient-to-br from-[#6f5c14] via-[#EBC142] to-[#b89e3c] p-7 sm:p-8 md:p-10 text-white">
             <div className="flex items-center gap-3">
-              <div className="h-12 w-12 rounded-2xl bg-white/15 text-white flex items-center justify-center font-bold text-lg">
+              <div className="h-12 w-12 rounded-2xl bg-[#f7ef20]/70  text-white flex items-center justify-center font-bold text-lg">
                 AT
               </div>
               <div>
@@ -60,7 +60,7 @@ export default function LoginPage() {
             </div>
 
             <div className="mt-8 sm:mt-10">
-              <div className="relative overflow-hidden rounded-3xl border border-white/20 bg-yellow/80 p-4">
+              <div className="relative overflow-hidden rounded-3xl border border-white/20 bg-[#f7ef20]/50 p-4">
                 <img
                   src={`${apiBase}/static/images/logo2.png`}
                   alt="Hero"
