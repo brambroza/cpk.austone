@@ -123,7 +123,7 @@ export default function TiresPage() {
 
         <div className="overflow-x-auto">
           <table className="min-w-full text-sm">
-            <thead className="bg-amber-50 text-slate-600">
+            <thead className="bg-[#ffe14d] text-slate-700">
               <tr>
                 <th className="px-5 py-3 text-left font-semibold">No.</th>
                 <th className="px-5 py-3 text-left font-semibold">ยี่ห้อ</th>

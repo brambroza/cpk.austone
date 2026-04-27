@@ -140,7 +140,7 @@ export default function CarCheckPanel({
         </div>
         <div className="overflow-x-auto">
           <table className="min-w-full text-sm">
-            <thead className="bg-amber-50 text-slate-600">
+           <thead className="bg-[#ffe14d] text-slate-700">
               <tr>
                 <th className="px-4 py-2 text-left font-semibold">วันที่เช็ค</th>
                 <th className="px-4 py-2 text-left font-semibold">เลขไมล์</th>

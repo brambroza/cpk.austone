@@ -48,19 +48,19 @@ export default function LoginPage() {
 
       <div className="w-full max-w-5xl rounded-[28px] border border-white/70 bg-white/80 shadow-[0_30px_80px_rgba(15,23,42,0.15)] backdrop-blur">
         <div className="grid md:grid-cols-[1.05fr_1fr]">
-          <div className="relative order-2 md:order-1 overflow-hidden rounded-[28px] md:rounded-r-none bg-gradient-to-br from-[#6f5c14] via-[#EBC142] to-[#b89e3c] p-7 sm:p-8 md:p-10 text-white">
+          <div className="relative order-2 md:order-1 overflow-hidden rounded-[28px] md:rounded-r-none bg-gradient-to-br from-[#ffe14d] via-[#ffe14d] to-[#ffe14d] p-7 sm:p-8 md:p-10 text-white">
             <div className="flex items-center gap-3">
-              <div className="h-12 w-12 rounded-2xl bg-[#f7ef20]/70  text-white flex items-center justify-center font-bold text-lg">
+              <div className="h-12 w-12 rounded-2xl bg-[#f7ef20]/70  border border-black/70 text-black flex items-center justify-center font-bold text-lg">
                 AT
               </div>
               <div>
-                <h1 className="text-2xl font-semibold tracking-tight">Austone Thailand</h1>
+                <h1 className="text-2xl  text-black font-semibold tracking-tight">Austone Thailand</h1>
 
               </div>
             </div>
 
             <div className="mt-8 sm:mt-10">
-              <div className="relative overflow-hidden rounded-3xl border border-white/20 bg-[#f7ef20]/50 p-4">
+              <div className="relative overflow-hidden rounded-3xl border border-black/20 bg-[#f7ef20]/50 p-4">
                 <img
                   src={`${apiBase}/static/images/logo2.png`}
                   alt="Hero"
@@ -70,20 +70,7 @@ export default function LoginPage() {
               </div>
             </div>
 
-            {/*       <div className="mt-8 sm:mt-10 grid grid-cols-3 gap-3 text-xs text-white/90">
-              <div className="rounded-2xl bg-white/10 px-3 py-3">
-                <p className="font-semibold text-base">99.9%</p>
-                <p className="text-white/70">ความเสถียร</p>
-              </div>
-              <div className="rounded-2xl bg-white/10 px-3 py-3">
-                <p className="font-semibold text-base">24/7</p>
-                <p className="text-white/70">ซัพพอร์ต</p>
-              </div>
-              <div className="rounded-2xl bg-white/10 px-3 py-3">
-                <p className="font-semibold text-base">SOC2</p>
-                <p className="text-white/70">มาตรฐาน</p>
-              </div>
-            </div> */}
+         
 
             <div className="pointer-events-none absolute -bottom-14 -right-14 h-48 w-48 rounded-full border border-white/20 bg-white/10" />
           </div>
@@ -165,11 +152,11 @@ export default function LoginPage() {
               <button
                 type="submit"
                 disabled={loading}
-                className="group w-full rounded-2xl bg-gradient-to-r from-[#EBD58A] via-[#EBC142] to-[#b89e3c] py-3 text-sm font-semibold text-white shadow-[0_15px_35px_rgba(138,116,35,0.35)] transition hover:opacity-95 disabled:opacity-70"
+                className="group w-full rounded-2xl bg-gradient-to-r from-[#ffe14d] via-[#ffe14d] to-[#ffe14d] py-3 text-sm font-semibold text-white shadow-[0_15px_35px_rgba(138,116,35,0.35)] transition hover:opacity-95 disabled:opacity-70"
               >
-                <span className="inline-flex items-center gap-2">
+                <span className="inline-flex text-black items-center gap-2">
                   {loading ? "กำลังเข้าสู่ระบบ..." : "เข้าสู่ระบบ"}
-                  <span className="text-white/70 group-hover:text-white transition">→</span>
+                  <span className=" group-hover:text-white text-black transition">→</span>
                 </span>
               </button>
               <p className="text-xs text-slate-400">

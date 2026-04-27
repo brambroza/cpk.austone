@@ -109,7 +109,7 @@ export default function Sidebar({
       />
       <aside
         className={clsx(
-          "fixed left-0 top-0 z-40 h-full bg-gradient-to-b from-[#fff9df] via-[#f7ebbc] to-[#edd98b] text-slate-700 transition-all duration-200",
+          "fixed left-0 top-0 z-40 h-full bg-gradient-to-b from-[#ffe14d] via-[#ffe14d] to-[#ffe14d] text-slate-700 transition-all duration-200",
           open ? "translate-x-0" : "-translate-x-full",
           "lg:translate-x-0",
           collapsed ? "lg:w-20" : "lg:w-64",
@@ -118,7 +118,7 @@ export default function Sidebar({
       >
         <div className="flex items-center justify-between gap-3 px-5 py-5 lg:px-6">
           <div className="flex items-center gap-3">
-            <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-yellow/60 bg-[#EBC95E] font-bold text-slate-800">
+            <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-black/60 bg-[#ffe14d] font-bold text-slate-800">
               AT
             </div>
             {!collapsed && <div className="text-lg font-semibold text-slate-800">Austone Thailand</div>}
@@ -135,7 +135,7 @@ export default function Sidebar({
             <div key={section.label}>
               <p
                 className={clsx(
-                  "px-3 pb-2 text-xs uppercase tracking-wider text-slate-600",
+                  "px-3 pb-2 text-xs uppercase tracking-wider text-slate-900",
                   collapsed && "hidden"
                 )}
               >
@@ -151,8 +151,8 @@ export default function Sidebar({
                       className={clsx(
                         "flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-semibold transition touch-manipulation",
                         active
-                          ? "bg-white/80 text-slate-900 shadow-sm"
-                          : "text-slate-700 hover:bg-white/45 hover:text-slate-900"
+                          ? "bg-black/20 text-slate-900 shadow-sm border border-black/80"
+                          : "text-slate-700 hover:bg-black/45 hover:text-slate-900"
                       )}
                     >
                       <span className="text-lg">{item.icon}</span>

@@ -984,7 +984,7 @@ export default function CarCheckFull({
               )}
             </div>
             <table className="hidden min-w-full text-sm md:table">
-              <thead className="bg-amber-50 text-slate-600">
+              <thead className="bg-[#ffe14d] text-slate-700">
                 <tr>
                   <th className="px-4 py-2 text-left font-semibold">ครั้งที่</th>
                   <th className="px-4 py-2 text-left font-semibold">วันที่เช็ค</th>
@@ -1056,7 +1056,7 @@ export default function CarCheckFull({
               </div>
               <div className="mt-4 overflow-x-auto">
                 <table className="min-w-full text-sm">
-                  <thead className="bg-amber-50 text-slate-600">
+                  <thead className="bg-[#ffe14d] text-slate-700">
                     <tr>
                       <th className="px-3 py-2 text-left font-semibold">รหัสยาง</th>
                       <th className="px-3 py-2 text-left font-semibold">ยี่ห้อ</th>
@@ -1365,7 +1365,7 @@ export default function CarCheckFull({
                               <div className="flex h-full flex-col items-center justify-center gap-1 px-2 text-center
                               ">
                                 {/*      <span className="font-semibold">{distance ? `${formatThaiCurrency(distance, { showSymbol: false, decimals: 2 })} Km` : "ยังไม่ตรวจวัด"}</span> */}
-                                <span className="font-semibold">{tire?.code ? `${tire?.code.substring(0,6)}` : "ยังไม่ตรวจวัด"}</span>
+                                <span className="font-semibold">{tire?.code ? `${tire?.code.substring(0, 6)}` : "ยังไม่ตรวจวัด"}</span>
                                 {/*    <span className="font-semibold">
                                   {tire?.tire_p !== '' && tire?.tire_p != null
                                     ? `${(Number(tire.tire_p) * 6.89476).toFixed(2)} KPa`
@@ -1406,7 +1406,7 @@ export default function CarCheckFull({
                             >
                               <div className="flex h-full flex-col items-center justify-center gap-1 px-2 text-center">
                                 {/*    <span className="font-semibold">{distance ? `${formatThaiCurrency(distance, { showSymbol: false, decimals: 2 })} Km` : "ยังไม่ตรวจวัด"}</span> */}
-                                <span className="font-semibold">{tire?.code ? `${tire?.code.substring(0,6)}` : "ยังไม่ตรวจวัด"}</span>
+                                <span className="font-semibold">{tire?.code ? `${tire?.code.substring(0, 6)}` : "ยังไม่ตรวจวัด"}</span>
                                 {/*     <span className="font-semibold">
                                   {tire?.tire_p !== '' && tire?.tire_p != null
                                     ? `${(Number(tire.tire_p) * 6.89476).toFixed(2)} KPa`
